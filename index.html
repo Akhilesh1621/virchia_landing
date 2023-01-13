@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Virchia</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap" media="print" onload="this.media='all'"/>
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap"/>
+    </noscript>
+    <link href="css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
+    <link href="css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
+    <link href="css/main.css?ver=1.2.0" rel="stylesheet">
+  </head>
+  <body id="top"><div class="site-wrapper">
+  <div class="site-wrapper-inner">
+    <div class="cover-container">
+      <div class="masthead clearfix">
+        <div class="inner">
+          <h3 class="masthead-brand">Virchia</h3>
+          <nav class="nav nav-masthead"> 
+            <a class="nav-link nav-social" style="color:#063f94" href="#" title="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+            <a class="nav-link nav-social" style="color:#063f94"  href="#" title="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            <a class="nav-link nav-social" style="color:#063f94"  href="#" title="Youtube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+            <a class="nav-link nav-social" style="color:#063f94"  href="#" title="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+          </nav>
+        </div>
+      </div>      
+      <div class="inner cover containerD">
+        <h1 class="cover-heading">Know what your customers really think about your product</h1>
+        <p class="lead cover-copy">Whether its to get feedback on your product or to launch a new product, we got you covered</p>
+        
+       <p class="lead" ><button type="button"  style="max-width:280px;" class="btn btn-lg btn-default btn-notify" data-toggle="modal" data-target="#exampleModal" >Get in Touch</button></p>
+      </div>
+      
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+       
+        <button type="button" style="max-width: 20px; margin-right: 20px; background-color: transparent;"class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div  >
+        <div>
+          <h1>Book a meeting</h1>
+          <form action="/">
+           
+           
+            <input type="text" name="name" id="name" placeholder="Email" required/>
+            
+            <input type="text" name="name" id="name" placeholder="Name" required/>
+            
+            <input type="text" name="name" id="name" placeholder="Contact" required/>
+            <hr>
+           
+            <hr>
+            <div class="btn-block">
+           
+              <button  style="width:100px;" type="submit" href="/">Book</button>
+            </div>
+          </form>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+
+
+      <div class="mastfoot">
+        <div class="inner">
+          <p>&copy; Virchia</p>
+        </div>
+      </div>
+   
+  </div>
+</div>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAfWeXTny1ONzMR0MZ9hTvoVn0eTZug9BY",
+    authDomain: "virchia.firebaseapp.com",
+    projectId: "virchia",
+    storageBucket: "virchia.appspot.com",
+    messagingSenderId: "867922239628",
+    appId: "1:867922239628:web:108d072eea8e15003edba9",
+    measurementId: "G-G25DYEKM4C"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+    <script src="scripts/jquery.slim.min.js?ver=1.2.0"></script>
+    <script src="scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
+    <script src="scripts/main.js?ver=1.2.0"></script>
+  </body>
+</html>
